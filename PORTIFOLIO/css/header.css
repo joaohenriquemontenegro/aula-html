@@ -1,0 +1,27 @@
+header {
+    background-color: #222;
+    padding: 21px;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+
+header h1, a {
+    color:#ffd700;
+transition: 0.2s ease-in-out;
+}
+
+header h1:hover, a:hover {
+    color:rgb(177, 132, 10)
+} 
